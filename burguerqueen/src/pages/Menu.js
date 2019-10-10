@@ -82,7 +82,15 @@ class Menu extends React.Component {
   }
 
   updateVersion(){
-    console.log('update Version');
+    console.log('update order Version');
+    this.setState({version: this.state.version + 1});
+  }
+  updateItem(){
+    console.log('update item Version');
+    this.setState({version: this.state.version + 1});
+  }
+  updateMenu(){
+    console.log('update menu Version');
     this.setState({version: this.state.version + 1});
   }
 
@@ -103,8 +111,10 @@ class Menu extends React.Component {
           <Boxfinish
             clientName={this.state.client.name}
             footerText="FINALIZAR"
-            orderVersion={this.state.version}
+            orderVersion={this.state.orderVersion}
+            itemVersion={this.state.itemVersion}
             updateVersion={this.updateVersion.bind(this)}
+            updateItem={this.updateItem.bind(this)}
           />
           {Object.keys(this.state.menu).map((option, i) => (
             <ButtonDropdown
@@ -131,7 +141,9 @@ class Menu extends React.Component {
                 menu={this.state.menu}
                 prices={this.state.prices}
                 addItem={this.addItem}
+                menuVersion={this.state.version}
                 updateVersion={this.updateVersion.bind(this)}
+                updateMenu={this.updateMenu.bind(this)}
               />
               {/* {(this.state.typeFood && this.state.typeFood === element) ?
       <ItemDropdown key={i}  typefood={element} menu={this.state.menu} prices={this.state.prices.element}/> :
