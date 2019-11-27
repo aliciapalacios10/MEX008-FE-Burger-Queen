@@ -42,7 +42,11 @@ class Confirmation extends React.Component {
   handleClick(ev) {
     if (this.state.client.name) {
       ev.preventDefault();
+<<<<<<< HEAD
       this.props.history.push('/kitchen');
+=======
+      this.props.history.push('/Home');
+>>>>>>> b40d5e1818e5f6267b92abbcb5be2391ee8fea73
       //         this.props.closeModal();
     } else {
     }
@@ -68,6 +72,13 @@ class Confirmation extends React.Component {
               className="btn btn-dark save"
               onClick={this.handleClick.bind(this)}>
                 <Link to={`${this.props.match.url}/MEX008-FE-Burger-Queen/Kitchen`}>ENVIAR A COCINA</Link>
+            </Button>
+            <Button
+              type="submit"
+              className="btn btn-secondary save"
+              onClick={this.toggle}
+            >
+              CANCELAR
             </Button>
           </ModalFooter>
         </Modal>

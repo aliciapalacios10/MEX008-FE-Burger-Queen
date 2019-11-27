@@ -30,8 +30,8 @@ class Cardkitchen extends React.Component {
               <th scope="row">3</th>
               <td>MARIANA</td>
               <td>1</td>
-              <td>SOBERBIA</td>
-              <td>13:00</td>
+              <td>HELL GIRL</td>
+              <td>12:40</td>
               <td>00:00</td>
             </tr>
             <tr className="p-3 mb-2 bg-success text-white">
@@ -39,7 +39,7 @@ class Cardkitchen extends React.Component {
               <td>ADRIANA</td>
               <td>2</td>
               <td>LUJURIA</td>
-              <td>13:00</td>
+              <td>12:33</td>
               <td>00:00</td>
             </tr>
             <tr className="p-3 mb-2 bg-secondary text-white">
@@ -63,34 +63,6 @@ class Cardkitchen extends React.Component {
           </thead>
         </Table>
       </div>
-
-      //     <div className="orderkitchen">
-      //   <Card body inverse style={{ backgroundColor: '#B6B6B6', borderColor: '#B6B6B6' }}>
-      //   <CardHeader>ORDEN MARIANA</CardHeader>
-      //     <CardTitle tag="h3">1 LUJURIA</CardTitle>
-      //     <CardTitle tag="h3">1 SOBERBIA</CardTitle>
-      //     <CardText>
-      //     <small className="text-muted">13:00-</small>
-      //     <small className="text-muted">13:20</small>
-      //     </CardText>
-      //   </Card>
-      //   <Card body inverse style={{ backgroundColor: '#60DE5D', borderColor: '#60DE5D' }}>
-      //   <CardHeader>ORDEN ADRIANA</CardHeader>
-      //     <CardTitle tag="h3">1 LUJURIA</CardTitle>
-      //     <CardText>
-      //     <small className="text-muted">13:00-</small>
-      //     <small className="text-muted">13:00</small>
-      //     </CardText>
-      //   </Card>
-      //   <Card body outline color="secondary">
-      //   <CardHeader>ORDEN LORENA</CardHeader>
-      //     <CardTitle tag="h3">1 MALICIA</CardTitle>
-      //     <CardText>
-      //     <small className="text-muted">13:00-</small>
-      //     <small className="text-muted">13:00</small>
-      //     </CardText>
-      //   </Card>
-      // </div>
     );
   }
 }
