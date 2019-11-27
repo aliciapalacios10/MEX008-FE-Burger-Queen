@@ -66,7 +66,7 @@ class BoxGet extends React.Component {
               onClick={this.handleClick.bind(this)}
             >
                 <CardImg width="12 px" src={arrow} alt="arrow" />
-            </button>
+            </button>ñ
           </section>
         </section>
       </section>

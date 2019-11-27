@@ -171,8 +171,6 @@ class Boxfinish extends React.Component {
             <th>SUBTOTAL</th>
             <th>${this.state.client.total}</th>
           </tr>
-
-
         </Table>
 
         <div className="card-footer text-muted d-flex justify-content-center footer-dark">
