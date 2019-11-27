@@ -11,19 +11,6 @@ class BoxGet extends React.Component {
     this.props.history.push('/Home');
   }
 
-<<<<<<< HEAD
-  render() {
-    return (
-      <section className={'form-in'} >
-        <section className={'box-welcome'} >
-          <img className={'img-log'} src={logo} alt="logo" />
-
-          <div className={'text-welcome'}>
-            <h2>¡TE DAMOS LA </h2>
-            <h2>BIENVENIDA!</h2>
-          </div>
-
-=======
   handleAdm(ev) {
     ev.preventDefault();
     this.props.history.push('/Kitchen');
@@ -40,20 +27,15 @@ class BoxGet extends React.Component {
             <h2>BIENVENIDA!</h2>
           </div>
 
->>>>>>> b40d5e1818e5f6267b92abbcb5be2391ee8fea73
           <div className={'box-btn-welcome'}>
             <Button className={'btn-login'} color="secondary">
               <h4>EQUIPO</h4>
             </Button>
-<<<<<<< HEAD
-            <Button className={'btn-login'} color="secondary">
-=======
             <Button
               onClick={this.handleAdm.bind(this)}
               className={'btn-login'}
               color="secondary"
             >
->>>>>>> b40d5e1818e5f6267b92abbcb5be2391ee8fea73
               <h4>ADMINISTRACIÓN</h4>
             </Button>
           </div>
@@ -88,21 +70,12 @@ class BoxGet extends React.Component {
               </div>
             </div>
 
-<<<<<<< HEAD
-            <button 
-              className={'btn-valid-password'} 
-              onClick={this.handleClick.bind(this)}
-            >
-                <CardImg width="12 px" src={arrow} alt="arrow" />
-            </button>ñ
-=======
             <button
               className={'btn-valid-password'}
               onClick={this.handleClick.bind(this)}
             >
               <CardImg width="12 px" src={arrow} alt="arrow" />
             </button>
->>>>>>> b40d5e1818e5f6267b92abbcb5be2391ee8fea73
           </section>
         </section>
       </section>

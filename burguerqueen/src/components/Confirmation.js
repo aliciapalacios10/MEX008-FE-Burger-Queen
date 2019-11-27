@@ -42,11 +42,7 @@ class Confirmation extends React.Component {
   handleClick(ev) {
     if (this.state.client.name) {
       ev.preventDefault();
-<<<<<<< HEAD
-      this.props.history.push('/kitchen');
-=======
       this.props.history.push('/Home');
->>>>>>> b40d5e1818e5f6267b92abbcb5be2391ee8fea73
       //         this.props.closeModal();
     } else {
     }
